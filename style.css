@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(/gcbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* finds the folder in which the img is located and styles it */
+
+/* Basic styling and positioning of different classes and id's defined on the .html pages */
+#h1 {
+  position: absolute;
+  top: 650px;
+  left: 9.3%;
+  bottom: 0;
+  right: 0;
+  color: aliceblue;
+  text-shadow: 0.5px 0.5px #f952ff;
+}
+
+#h4 {
+  position: absolute;
+  top: 685px;
+  left: 9.5%;
+  bottom: 0;
+  right: 0;
+  color: aliceblue;
+  text-shadow: 0.5px 0.5px #f952ff;
+}
+
+#p1 {
+  position: absolute;
+  top: 710px;
+  left: 9.5%;
+  bottom: 0;
+  right: 0;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+#p2 {
+  position: absolute;
+  left: 25%;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+#p3 {
+  position: absolute;
+  right: 50%;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+#p4 {
+  position: absolute;
+  left: 65%;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+#p5 {
+  position: fixed;
+  font-size: 25px;
+  font-family: serif;
+  color: aliceblue;
+  right: 100px;
+  bottom: 300px;
+}
+
+#gitButton {
+  position: relative;
+  font-size: 25px;
+  font-family: serif;
+  left: 44%;
+  top: 42%;
+  font-weight: bolder;
+  border-radius: 10px;
+  border-color: rgb(198, 162, 231);
+  height: 35px;
+  background-color: rgb(43, 168, 226);
+  color: rgb(34, 31, 51);
+}
+
+#bio {
+  background-color: rgb(198, 162, 231);
+  width: 300px;
+  border: 15px solid rgb(212, 128, 60);
+  padding: 50px;
+  margin: 20px;
+  opacity: 0.8;
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(10, 9, 48);
+  position: relative;
+  bottom: 14%;
+  left: 60%;
+}
+
+#gitLogo {
+  position: absolute;
+  width: 150px;
+  left: 47%;
+  top: 25%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.insta {
+  position: relative;
+  height: 100px;
+  top: 30%;
+  left: 30%;
+}
+
+.fblogo {
+  position: relative;
+  height: 100px;
+  top: 30%;
+  left: 40%;
+}
+
+.linked {
+  position: relative;
+  height: 100px;
+  top: 30%;
+  left: 50%;
+}
+
+.selfie {
+  position: relative;
+  height: 500px;
+  top: 25%;
+  left: 25%;
+  opacity: 0.9;
+  border-radius: 100px;
+}
+
+.blinking {
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.blinking {
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  color: rgb(155, 81, 252);
+}
+
+a {
+  text-decoration: none;
+}
+/* makes it so my hypertext doesn't have an underline and looks better */
